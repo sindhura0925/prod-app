@@ -1,0 +1,101 @@
+2024-02-06 13:19:27 [restartedMain] INFO  : Starting SampleProdCrudApplication using Java 20.0.1 with PID 46840 (C:\Users\Sindhu\Desktop\Workspace-0608\SampleProdCrud\target\classes started by Sindhu in C:\Users\Sindhu\Desktop\Workspace-0608\SampleProdCrud)
+2024-02-06 13:19:27 [restartedMain] INFO  : No active profile set, falling back to 1 default profile: "default"
+2024-02-06 13:19:27 [restartedMain] INFO  : The Class-Path manifest attribute in C:\Users\Sindhu\.m2\repository\org\glassfish\jaxb\jaxb-xjc-jdk9\2.3.0\jaxb-xjc-jdk9-2.3.0.jar referenced one or more files that do not exist: file:/C:/Users/Sindhu/.m2/repository/org/glassfish/jaxb/jaxb-xjc-jdk9/2.3.0/jaxb-xjc-2.3.0.jar,file:/C:/Users/Sindhu/.m2/repository/org/glassfish/jaxb/jaxb-xjc-jdk9/2.3.0/jaxb-core-2.3.0.jar,file:/C:/Users/Sindhu/.m2/repository/org/glassfish/jaxb/jaxb-xjc-jdk9/2.3.0/jaxb-api-2.3.0.jar,file:/C:/Users/Sindhu/.m2/repository/org/glassfish/jaxb/jaxb-xjc-jdk9/2.3.0/txw2-2.3.0.jar,file:/C:/Users/Sindhu/.m2/repository/org/glassfish/jaxb/jaxb-xjc-jdk9/2.3.0/dtd-parser-1.2.jar,file:/C:/Users/Sindhu/.m2/repository/org/glassfish/jaxb/jaxb-xjc-jdk9/2.3.0/xsom-2.3.0.jar,file:/C:/Users/Sindhu/.m2/repository/org/glassfish/jaxb/jaxb-xjc-jdk9/2.3.0/codemodel-2.3.0.jar,file:/C:/Users/Sindhu/.m2/repository/org/glassfish/jaxb/jaxb-xjc-jdk9/2.3.0/rngom-2.3.0.jar,file:/C:/Users/Sindhu/.m2/repository/org/glassfish/jaxb/jaxb-xjc-jdk9/2.3.0/istack-commons-tools-3.0.5.jar,file:/C:/Users/Sindhu/.m2/repository/org/glassfish/jaxb/jaxb-xjc-jdk9/2.3.0/istack-commons-runtime-3.0.5.jar,file:/C:/Users/Sindhu/.m2/repository/org/glassfish/jaxb/jaxb-xjc-jdk9/2.3.0/relaxngDatatype-20020414.jar
+2024-02-06 13:19:27 [restartedMain] INFO  : The Class-Path manifest attribute in C:\Users\Sindhu\.m2\repository\com\sun\xml\bind\external\rngom\2.3.0\rngom-2.3.0.jar referenced one or more files that do not exist: file:/C:/Users/Sindhu/.m2/repository/com/sun/xml/bind/external/rngom/2.3.0/relaxngDatatype-20020414.jar
+2024-02-06 13:19:27 [restartedMain] INFO  : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-02-06 13:19:27 [restartedMain] INFO  : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-02-06 13:19:28 [restartedMain] INFO  : Tomcat initialized with port 8080 (http)
+2024-02-06 13:19:28 [restartedMain] INFO  : Initializing ProtocolHandler ["http-nio-8080"]
+2024-02-06 13:19:28 [restartedMain] INFO  : Starting service [Tomcat]
+2024-02-06 13:19:28 [restartedMain] INFO  : Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-02-06 13:19:28 [restartedMain] INFO  : Initializing Spring embedded WebApplicationContext
+2024-02-06 13:19:28 [restartedMain] INFO  : Root WebApplicationContext: initialization completed in 905 ms
+2024-02-06 13:19:28 [restartedMain] WARN  : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-02-06 13:19:28 [restartedMain] INFO  : LiveReload server is running on port 35729
+2024-02-06 13:19:28 [restartedMain] INFO  : Exposing 13 endpoint(s) beneath base path '/details'
+2024-02-06 13:19:28 [restartedMain] INFO  : Starting ProtocolHandler ["http-nio-8080"]
+2024-02-06 13:19:28 [restartedMain] INFO  : Tomcat started on port 8080 (http) with context path ''
+2024-02-06 13:19:28 [restartedMain] INFO  : Started SampleProdCrudApplication in 1.877 seconds (process running for 2.637)
+2024-02-06 13:19:29 [RMI TCP Connection(3)-127.0.0.1] INFO  : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-02-06 13:19:29 [RMI TCP Connection(3)-127.0.0.1] INFO  : Initializing Servlet 'dispatcherServlet'
+2024-02-06 13:19:29 [RMI TCP Connection(3)-127.0.0.1] INFO  : Completed initialization in 1 ms
+2024-02-06 13:19:53 [http-nio-8080-exec-1] WARN  : No mapping for GET /log
+2024-02-06 13:19:54 [http-nio-8080-exec-1] WARN  : No endpoint GET /log.
+2024-02-06 13:20:50 [File Watcher] INFO  : Restarting due to 5 class path changes (4 additions, 0 deletions, 1 modification)
+2024-02-06 13:20:50 [Thread-5] INFO  : Stopping ProtocolHandler ["http-nio-8080"]
+2024-02-06 13:20:50 [restartedMain] INFO  : Starting SampleProdCrudApplication using Java 20.0.1 with PID 46840 (C:\Users\Sindhu\Desktop\Workspace-0608\SampleProdCrud\target\classes started by Sindhu in C:\Users\Sindhu\Desktop\Workspace-0608\SampleProdCrud)
+2024-02-06 13:20:50 [restartedMain] INFO  : No active profile set, falling back to 1 default profile: "default"
+2024-02-06 13:20:51 [restartedMain] INFO  : Tomcat initialized with port 8080 (http)
+2024-02-06 13:20:51 [restartedMain] INFO  : Initializing ProtocolHandler ["http-nio-8080"]
+2024-02-06 13:20:51 [restartedMain] INFO  : Starting service [Tomcat]
+2024-02-06 13:20:51 [restartedMain] INFO  : Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-02-06 13:20:51 [restartedMain] INFO  : Initializing Spring embedded WebApplicationContext
+2024-02-06 13:20:51 [restartedMain] INFO  : Root WebApplicationContext: initialization completed in 271 ms
+2024-02-06 13:20:51 [restartedMain] INFO  : LiveReload server is running on port 35729
+2024-02-06 13:20:51 [restartedMain] INFO  : Exposing 13 endpoint(s) beneath base path '/details'
+2024-02-06 13:20:51 [restartedMain] INFO  : Starting ProtocolHandler ["http-nio-8080"]
+2024-02-06 13:20:51 [restartedMain] INFO  : Tomcat started on port 8080 (http) with context path ''
+2024-02-06 13:20:51 [restartedMain] INFO  : Started SampleProdCrudApplication in 0.441 seconds (process running for 85.328)
+2024-02-06 13:20:51 [restartedMain] INFO  : Condition evaluation unchanged
+2024-02-06 13:21:04 [File Watcher] INFO  : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-02-06 13:21:04 [Thread-7] INFO  : Stopping ProtocolHandler ["http-nio-8080"]
+2024-02-06 13:21:04 [restartedMain] INFO  : Starting SampleProdCrudApplication using Java 20.0.1 with PID 46840 (C:\Users\Sindhu\Desktop\Workspace-0608\SampleProdCrud\target\classes started by Sindhu in C:\Users\Sindhu\Desktop\Workspace-0608\SampleProdCrud)
+2024-02-06 13:21:04 [restartedMain] INFO  : No active profile set, falling back to 1 default profile: "default"
+2024-02-06 13:21:05 [restartedMain] INFO  : Tomcat initialized with port 8080 (http)
+2024-02-06 13:21:05 [restartedMain] INFO  : Initializing ProtocolHandler ["http-nio-8080"]
+2024-02-06 13:21:05 [restartedMain] INFO  : Starting service [Tomcat]
+2024-02-06 13:21:05 [restartedMain] INFO  : Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-02-06 13:21:05 [restartedMain] INFO  : Initializing Spring embedded WebApplicationContext
+2024-02-06 13:21:05 [restartedMain] INFO  : Root WebApplicationContext: initialization completed in 222 ms
+2024-02-06 13:21:05 [restartedMain] INFO  : LiveReload server is running on port 35729
+2024-02-06 13:21:05 [restartedMain] INFO  : Exposing 13 endpoint(s) beneath base path '/details'
+2024-02-06 13:21:05 [restartedMain] INFO  : Starting ProtocolHandler ["http-nio-8080"]
+2024-02-06 13:21:05 [restartedMain] INFO  : Tomcat started on port 8080 (http) with context path ''
+2024-02-06 13:21:05 [restartedMain] INFO  : Started SampleProdCrudApplication in 0.346 seconds (process running for 99.214)
+2024-02-06 13:21:05 [restartedMain] INFO  : Condition evaluation unchanged
+2024-02-06 13:21:40 [File Watcher] INFO  : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-02-06 13:21:40 [Thread-11] INFO  : Stopping ProtocolHandler ["http-nio-8080"]
+2024-02-06 13:21:40 [restartedMain] INFO  : Starting SampleProdCrudApplication using Java 20.0.1 with PID 46840 (C:\Users\Sindhu\Desktop\Workspace-0608\SampleProdCrud\target\classes started by Sindhu in C:\Users\Sindhu\Desktop\Workspace-0608\SampleProdCrud)
+2024-02-06 13:21:40 [restartedMain] INFO  : No active profile set, falling back to 1 default profile: "default"
+2024-02-06 13:21:40 [restartedMain] INFO  : Tomcat initialized with port 8080 (http)
+2024-02-06 13:21:40 [restartedMain] INFO  : Initializing ProtocolHandler ["http-nio-8080"]
+2024-02-06 13:21:40 [restartedMain] INFO  : Starting service [Tomcat]
+2024-02-06 13:21:40 [restartedMain] INFO  : Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-02-06 13:21:40 [restartedMain] INFO  : Initializing Spring embedded WebApplicationContext
+2024-02-06 13:21:40 [restartedMain] INFO  : Root WebApplicationContext: initialization completed in 283 ms
+2024-02-06 13:21:40 [restartedMain] INFO  : LiveReload server is running on port 35729
+2024-02-06 13:21:40 [restartedMain] INFO  : Exposing 13 endpoint(s) beneath base path '/details'
+2024-02-06 13:21:40 [restartedMain] INFO  : Starting ProtocolHandler ["http-nio-8080"]
+2024-02-06 13:21:40 [restartedMain] INFO  : Tomcat started on port 8080 (http) with context path ''
+2024-02-06 13:21:40 [restartedMain] INFO  : Started SampleProdCrudApplication in 0.43 seconds (process running for 134.58)
+2024-02-06 13:21:40 [restartedMain] INFO  : Condition evaluation unchanged
+2024-02-06 13:21:55 [http-nio-8080-exec-2] INFO  : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-02-06 13:21:55 [http-nio-8080-exec-2] INFO  : Initializing Servlet 'dispatcherServlet'
+2024-02-06 13:21:55 [http-nio-8080-exec-2] INFO  : Completed initialization in 1 ms
+2024-02-06 13:21:55 [http-nio-8080-exec-2] INFO  : Log level: INFO
+2024-02-06 13:21:55 [http-nio-8080-exec-2] ERROR : Log level: ERROR
+2024-02-06 13:21:55 [http-nio-8080-exec-2] WARN  : Log level: WARN
+2024-02-06 13:22:30 [http-nio-8080-exec-1] INFO  : Log level: INFO
+2024-02-06 13:22:30 [http-nio-8080-exec-1] ERROR : Log level: ERROR
+2024-02-06 13:22:30 [http-nio-8080-exec-1] WARN  : Log level: WARN
+2024-02-06 13:40:49 [http-nio-8080-exec-4] INFO  : Log level: INFO
+2024-02-06 13:40:49 [http-nio-8080-exec-4] ERROR : Log level: ERROR
+2024-02-06 13:40:49 [http-nio-8080-exec-4] WARN  : Log level: WARN
+2024-02-06 13:43:26 [File Watcher] INFO  : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-02-06 13:43:26 [Thread-15] INFO  : Stopping ProtocolHandler ["http-nio-8080"]
+2024-02-06 13:43:26 [restartedMain] INFO  : Starting SampleProdCrudApplication using Java 20.0.1 with PID 46840 (C:\Users\Sindhu\Desktop\Workspace-0608\SampleProdCrud\target\classes started by Sindhu in C:\Users\Sindhu\Desktop\Workspace-0608\SampleProdCrud)
+2024-02-06 13:43:26 [restartedMain] INFO  : No active profile set, falling back to 1 default profile: "default"
+2024-02-06 13:43:27 [restartedMain] INFO  : Tomcat initialized with port 8080 (http)
+2024-02-06 13:43:27 [restartedMain] INFO  : Initializing ProtocolHandler ["http-nio-8080"]
+2024-02-06 13:43:27 [restartedMain] INFO  : Starting service [Tomcat]
+2024-02-06 13:43:27 [restartedMain] INFO  : Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-02-06 13:43:27 [restartedMain] INFO  : Initializing Spring embedded WebApplicationContext
+2024-02-06 13:43:27 [restartedMain] INFO  : Root WebApplicationContext: initialization completed in 254 ms
+2024-02-06 13:43:27 [restartedMain] INFO  : LiveReload server is running on port 35729
+2024-02-06 13:43:27 [restartedMain] INFO  : Exposing 13 endpoint(s) beneath base path '/details'
+2024-02-06 13:43:27 [restartedMain] INFO  : Starting ProtocolHandler ["http-nio-8080"]
+2024-02-06 13:43:27 [restartedMain] INFO  : Tomcat started on port 8080 (http) with context path ''
+2024-02-06 13:43:27 [restartedMain] INFO  : Started SampleProdCrudApplication in 0.404 seconds (process running for 1441.332)
+2024-02-06 13:43:27 [restartedMain] INFO  : Condition evaluation unchanged
+2024-02-06 13:43:34 [File Watcher] INFO  : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-02-06 13:43:34 [Thread-19] INFO  : Stopping ProtocolHandler ["http-nio-8080"]

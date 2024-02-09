@@ -1,0 +1,330 @@
+2024-02-06T13:01:14.514-06:00  INFO 7948 --- [restartedMain] com.sindhu.SampleProdCrudApplication     : Starting SampleProdCrudApplication using Java 20.0.1 with PID 7948 (C:\Users\Sindhu\Desktop\Workspace-0608\SampleProdCrud\target\classes started by Sindhu in C:\Users\Sindhu\Desktop\Workspace-0608\SampleProdCrud)
+2024-02-06T13:01:14.514-06:00  INFO 7948 --- [restartedMain] com.sindhu.SampleProdCrudApplication     : No active profile set, falling back to 1 default profile: "default"
+2024-02-06T13:01:14.788-06:00  INFO 7948 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-02-06T13:01:14.791-06:00  INFO 7948 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-02-06T13:01:14.791-06:00  INFO 7948 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-02-06T13:01:14.813-06:00  INFO 7948 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-02-06T13:01:14.814-06:00  INFO 7948 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 297 ms
+2024-02-06T13:01:14.904-06:00  INFO 7948 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-02-06T13:01:14.905-06:00  INFO 7948 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/details'
+2024-02-06T13:01:14.915-06:00  INFO 7948 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-02-06T13:01:14.921-06:00  INFO 7948 --- [restartedMain] com.sindhu.SampleProdCrudApplication     : Started SampleProdCrudApplication in 0.44 seconds (process running for 70.993)
+2024-02-06T13:01:14.924-06:00  INFO 7948 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+   LogFileWebEndpointAutoConfiguration#logFileWebEndpoint matched:
+      - Log File found logging.file.name logs/application_logback.log (LogFileWebEndpointAutoConfiguration.LogFileCondition)
+      - @ConditionalOnMissingBean (types: org.springframework.boot.actuate.logging.LogFileWebEndpoint; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+
+Negative matches:
+-----------------
+
+    None
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+2024-02-06T13:02:43.503-06:00  INFO 7948 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-02-06T13:02:43.557-06:00  INFO 7948 --- [restartedMain] com.sindhu.SampleProdCrudApplication     : This is an INFO level log message!
+2024-02-06T13:02:43.558-06:00 ERROR 7948 --- [restartedMain] com.sindhu.SampleProdCrudApplication     : This is an ERROR level log message!
+[2024-02-06 13:02:43,692] [org.springframework.boot.StartupInfoLogger] [restartedMain] [50] [INFO ] Starting SampleProdCrudApplication using Java 20.0.1 with PID 7948 (C:\Users\Sindhu\Desktop\Workspace-0608\SampleProdCrud\target\classes started by Sindhu in C:\Users\Sindhu\Desktop\Workspace-0608\SampleProdCrud)
+[2024-02-06 13:02:43,693] [org.springframework.boot.SpringApplication] [restartedMain] [654] [INFO ] No active profile set, falling back to 1 default profile: "default"
+[2024-02-06 13:02:43,899] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [109] [INFO ] Tomcat initialized with port 8080 (http)
+[2024-02-06 13:02:43,900] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting service [Tomcat]
+[2024-02-06 13:02:43,901] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/10.1.18]
+[2024-02-06 13:02:43,916] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2024-02-06 13:02:43,916] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [restartedMain] [296] [INFO ] Root WebApplicationContext: initialization completed in 221 ms
+[2024-02-06 13:02:44,007] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [restartedMain] [59] [INFO ] LiveReload server is running on port 35729
+[2024-02-06 13:02:44,009] [org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver] [restartedMain] [58] [INFO ] Exposing 13 endpoint(s) beneath base path '/details'
+[2024-02-06 13:02:44,023] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [241] [INFO ] Tomcat started on port 8080 (http) with context path ''
+[2024-02-06 13:02:44,030] [org.springframework.boot.StartupInfoLogger] [restartedMain] [56] [INFO ] Started SampleProdCrudApplication in 0.47 seconds (process running for 160.103)
+[2024-02-06 13:02:44,032] [org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener] [restartedMain] [58] [INFO ] Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+    None
+
+
+Negative matches:
+-----------------
+
+   LogFileWebEndpointAutoConfiguration#logFileWebEndpoint:
+      Did not match:
+         - Log File did not find logging file (LogFileWebEndpointAutoConfiguration.LogFileCondition)
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+[2024-02-06 13:03:01,463] [org.apache.juli.logging.DirectJDKLog] [http-nio-8080-exec-1] [173] [INFO ] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2024-02-06 13:03:01,464] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8080-exec-1] [532] [INFO ] Initializing Servlet 'dispatcherServlet'
+[2024-02-06 13:03:01,464] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8080-exec-1] [554] [INFO ] Completed initialization in 0 ms
+[2024-02-06 13:03:19,572] [org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin] [RMI TCP Connection(8)-127.0.0.1] [159] [INFO ] Application shutdown requested.
+[2024-02-06 13:03:39,192] [org.springframework.boot.StartupInfoLogger] [restartedMain] [50] [INFO ] Starting SampleProdCrudApplication using Java 20.0.1 with PID 16736 (C:\Users\Sindhu\Desktop\Workspace-0608\SampleProdCrud\target\classes started by Sindhu in C:\Users\Sindhu\Desktop\Workspace-0608\SampleProdCrud)
+[2024-02-06 13:03:39,195] [org.springframework.boot.SpringApplication] [restartedMain] [654] [INFO ] No active profile set, falling back to 1 default profile: "default"
+[2024-02-06 13:03:39,256] [org.springframework.boot.logging.DeferredLog] [restartedMain] [252] [INFO ] The Class-Path manifest attribute in C:\Users\Sindhu\.m2\repository\org\glassfish\jaxb\jaxb-xjc-jdk9\2.3.0\jaxb-xjc-jdk9-2.3.0.jar referenced one or more files that do not exist: file:/C:/Users/Sindhu/.m2/repository/org/glassfish/jaxb/jaxb-xjc-jdk9/2.3.0/jaxb-xjc-2.3.0.jar,file:/C:/Users/Sindhu/.m2/repository/org/glassfish/jaxb/jaxb-xjc-jdk9/2.3.0/jaxb-core-2.3.0.jar,file:/C:/Users/Sindhu/.m2/repository/org/glassfish/jaxb/jaxb-xjc-jdk9/2.3.0/jaxb-api-2.3.0.jar,file:/C:/Users/Sindhu/.m2/repository/org/glassfish/jaxb/jaxb-xjc-jdk9/2.3.0/txw2-2.3.0.jar,file:/C:/Users/Sindhu/.m2/repository/org/glassfish/jaxb/jaxb-xjc-jdk9/2.3.0/dtd-parser-1.2.jar,file:/C:/Users/Sindhu/.m2/repository/org/glassfish/jaxb/jaxb-xjc-jdk9/2.3.0/xsom-2.3.0.jar,file:/C:/Users/Sindhu/.m2/repository/org/glassfish/jaxb/jaxb-xjc-jdk9/2.3.0/codemodel-2.3.0.jar,file:/C:/Users/Sindhu/.m2/repository/org/glassfish/jaxb/jaxb-xjc-jdk9/2.3.0/rngom-2.3.0.jar,file:/C:/Users/Sindhu/.m2/repository/org/glassfish/jaxb/jaxb-xjc-jdk9/2.3.0/istack-commons-tools-3.0.5.jar,file:/C:/Users/Sindhu/.m2/repository/org/glassfish/jaxb/jaxb-xjc-jdk9/2.3.0/istack-commons-runtime-3.0.5.jar,file:/C:/Users/Sindhu/.m2/repository/org/glassfish/jaxb/jaxb-xjc-jdk9/2.3.0/relaxngDatatype-20020414.jar
+[2024-02-06 13:03:39,256] [org.springframework.boot.logging.DeferredLog] [restartedMain] [252] [INFO ] The Class-Path manifest attribute in C:\Users\Sindhu\.m2\repository\com\sun\xml\bind\external\rngom\2.3.0\rngom-2.3.0.jar referenced one or more files that do not exist: file:/C:/Users/Sindhu/.m2/repository/com/sun/xml/bind/external/rngom/2.3.0/relaxngDatatype-20020414.jar
+[2024-02-06 13:03:39,256] [org.springframework.boot.logging.DeferredLog] [restartedMain] [252] [INFO ] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2024-02-06 13:03:39,256] [org.springframework.boot.logging.DeferredLog] [restartedMain] [252] [INFO ] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2024-02-06 13:03:40,103] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [109] [INFO ] Tomcat initialized with port 8080 (http)
+[2024-02-06 13:03:40,112] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Initializing ProtocolHandler ["http-nio-8080"]
+[2024-02-06 13:03:40,113] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting service [Tomcat]
+[2024-02-06 13:03:40,114] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/10.1.18]
+[2024-02-06 13:03:40,147] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2024-02-06 13:03:40,148] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [restartedMain] [296] [INFO ] Root WebApplicationContext: initialization completed in 891 ms
+[2024-02-06 13:03:40,588] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [restartedMain] [59] [INFO ] LiveReload server is running on port 35729
+[2024-02-06 13:03:40,593] [org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver] [restartedMain] [58] [INFO ] Exposing 13 endpoint(s) beneath base path '/details'
+[2024-02-06 13:03:40,627] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting ProtocolHandler ["http-nio-8080"]
+[2024-02-06 13:03:40,639] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [241] [INFO ] Tomcat started on port 8080 (http) with context path ''
+[2024-02-06 13:03:40,651] [org.springframework.boot.StartupInfoLogger] [restartedMain] [56] [INFO ] Started SampleProdCrudApplication in 1.833 seconds (process running for 2.476)
+[2024-02-06 13:03:41,780] [org.apache.juli.logging.DirectJDKLog] [RMI TCP Connection(3)-127.0.0.1] [173] [INFO ] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2024-02-06 13:03:41,781] [org.springframework.web.servlet.FrameworkServlet] [RMI TCP Connection(3)-127.0.0.1] [532] [INFO ] Initializing Servlet 'dispatcherServlet'
+[2024-02-06 13:03:41,782] [org.springframework.web.servlet.FrameworkServlet] [RMI TCP Connection(3)-127.0.0.1] [554] [INFO ] Completed initialization in 0 ms
+[2024-02-06 13:04:56,648] [org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin] [RMI TCP Connection(4)-127.0.0.1] [159] [INFO ] Application shutdown requested.
+[2024-02-06 13:04:56,650] [org.apache.juli.logging.DirectJDKLog] [RMI TCP Connection(4)-127.0.0.1] [173] [INFO ] Stopping ProtocolHandler ["http-nio-8080"]
+[2024-02-06 13:05:08,781] [org.springframework.boot.StartupInfoLogger] [restartedMain] [50] [INFO ] Starting SampleProdCrudApplication using Java 20.0.1 with PID 41544 (C:\Users\Sindhu\Desktop\Workspace-0608\SampleProdCrud\target\classes started by Sindhu in C:\Users\Sindhu\Desktop\Workspace-0608\SampleProdCrud)
+[2024-02-06 13:05:08,783] [org.springframework.boot.SpringApplication] [restartedMain] [654] [INFO ] No active profile set, falling back to 1 default profile: "default"
+[2024-02-06 13:05:08,833] [org.springframework.boot.logging.DeferredLog] [restartedMain] [252] [INFO ] The Class-Path manifest attribute in C:\Users\Sindhu\.m2\repository\org\glassfish\jaxb\jaxb-xjc-jdk9\2.3.0\jaxb-xjc-jdk9-2.3.0.jar referenced one or more files that do not exist: file:/C:/Users/Sindhu/.m2/repository/org/glassfish/jaxb/jaxb-xjc-jdk9/2.3.0/jaxb-xjc-2.3.0.jar,file:/C:/Users/Sindhu/.m2/repository/org/glassfish/jaxb/jaxb-xjc-jdk9/2.3.0/jaxb-core-2.3.0.jar,file:/C:/Users/Sindhu/.m2/repository/org/glassfish/jaxb/jaxb-xjc-jdk9/2.3.0/jaxb-api-2.3.0.jar,file:/C:/Users/Sindhu/.m2/repository/org/glassfish/jaxb/jaxb-xjc-jdk9/2.3.0/txw2-2.3.0.jar,file:/C:/Users/Sindhu/.m2/repository/org/glassfish/jaxb/jaxb-xjc-jdk9/2.3.0/dtd-parser-1.2.jar,file:/C:/Users/Sindhu/.m2/repository/org/glassfish/jaxb/jaxb-xjc-jdk9/2.3.0/xsom-2.3.0.jar,file:/C:/Users/Sindhu/.m2/repository/org/glassfish/jaxb/jaxb-xjc-jdk9/2.3.0/codemodel-2.3.0.jar,file:/C:/Users/Sindhu/.m2/repository/org/glassfish/jaxb/jaxb-xjc-jdk9/2.3.0/rngom-2.3.0.jar,file:/C:/Users/Sindhu/.m2/repository/org/glassfish/jaxb/jaxb-xjc-jdk9/2.3.0/istack-commons-tools-3.0.5.jar,file:/C:/Users/Sindhu/.m2/repository/org/glassfish/jaxb/jaxb-xjc-jdk9/2.3.0/istack-commons-runtime-3.0.5.jar,file:/C:/Users/Sindhu/.m2/repository/org/glassfish/jaxb/jaxb-xjc-jdk9/2.3.0/relaxngDatatype-20020414.jar
+[2024-02-06 13:05:08,833] [org.springframework.boot.logging.DeferredLog] [restartedMain] [252] [INFO ] The Class-Path manifest attribute in C:\Users\Sindhu\.m2\repository\com\sun\xml\bind\external\rngom\2.3.0\rngom-2.3.0.jar referenced one or more files that do not exist: file:/C:/Users/Sindhu/.m2/repository/com/sun/xml/bind/external/rngom/2.3.0/relaxngDatatype-20020414.jar
+[2024-02-06 13:05:08,833] [org.springframework.boot.logging.DeferredLog] [restartedMain] [252] [INFO ] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2024-02-06 13:05:08,833] [org.springframework.boot.logging.DeferredLog] [restartedMain] [252] [INFO ] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2024-02-06 13:05:09,694] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [109] [INFO ] Tomcat initialized with port 8080 (http)
+[2024-02-06 13:05:09,700] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Initializing ProtocolHandler ["http-nio-8080"]
+[2024-02-06 13:05:09,702] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting service [Tomcat]
+[2024-02-06 13:05:09,703] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/10.1.18]
+[2024-02-06 13:05:09,740] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2024-02-06 13:05:09,740] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [restartedMain] [296] [INFO ] Root WebApplicationContext: initialization completed in 906 ms
+[2024-02-06 13:05:10,173] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [restartedMain] [59] [INFO ] LiveReload server is running on port 35729
+[2024-02-06 13:05:10,177] [org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver] [restartedMain] [58] [INFO ] Exposing 13 endpoint(s) beneath base path '/details'
+[2024-02-06 13:05:10,214] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting ProtocolHandler ["http-nio-8080"]
+[2024-02-06 13:05:10,227] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [241] [INFO ] Tomcat started on port 8080 (http) with context path ''
+[2024-02-06 13:05:10,237] [org.springframework.boot.StartupInfoLogger] [restartedMain] [56] [INFO ] Started SampleProdCrudApplication in 1.81 seconds (process running for 2.418)
+[2024-02-06 13:05:11,483] [org.apache.juli.logging.DirectJDKLog] [RMI TCP Connection(3)-127.0.0.1] [173] [INFO ] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2024-02-06 13:05:11,484] [org.springframework.web.servlet.FrameworkServlet] [RMI TCP Connection(3)-127.0.0.1] [532] [INFO ] Initializing Servlet 'dispatcherServlet'
+[2024-02-06 13:05:11,485] [org.springframework.web.servlet.FrameworkServlet] [RMI TCP Connection(3)-127.0.0.1] [554] [INFO ] Completed initialization in 0 ms
+[2024-02-06 13:05:58,348] [org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin] [RMI TCP Connection(6)-127.0.0.1] [159] [INFO ] Application shutdown requested.
+[2024-02-06 13:05:58,351] [org.apache.juli.logging.DirectJDKLog] [RMI TCP Connection(6)-127.0.0.1] [173] [INFO ] Stopping ProtocolHandler ["http-nio-8080"]
+[2024-02-06 13:06:04,650] [org.springframework.boot.StartupInfoLogger] [restartedMain] [50] [INFO ] Starting SampleProdCrudApplication using Java 20.0.1 with PID 38040 (C:\Users\Sindhu\Desktop\Workspace-0608\SampleProdCrud\target\classes started by Sindhu in C:\Users\Sindhu\Desktop\Workspace-0608\SampleProdCrud)
+[2024-02-06 13:06:04,653] [org.springframework.boot.SpringApplication] [restartedMain] [654] [INFO ] No active profile set, falling back to 1 default profile: "default"
+[2024-02-06 13:06:04,705] [org.springframework.boot.logging.DeferredLog] [restartedMain] [252] [INFO ] The Class-Path manifest attribute in C:\Users\Sindhu\.m2\repository\org\glassfish\jaxb\jaxb-xjc-jdk9\2.3.0\jaxb-xjc-jdk9-2.3.0.jar referenced one or more files that do not exist: file:/C:/Users/Sindhu/.m2/repository/org/glassfish/jaxb/jaxb-xjc-jdk9/2.3.0/jaxb-xjc-2.3.0.jar,file:/C:/Users/Sindhu/.m2/repository/org/glassfish/jaxb/jaxb-xjc-jdk9/2.3.0/jaxb-core-2.3.0.jar,file:/C:/Users/Sindhu/.m2/repository/org/glassfish/jaxb/jaxb-xjc-jdk9/2.3.0/jaxb-api-2.3.0.jar,file:/C:/Users/Sindhu/.m2/repository/org/glassfish/jaxb/jaxb-xjc-jdk9/2.3.0/txw2-2.3.0.jar,file:/C:/Users/Sindhu/.m2/repository/org/glassfish/jaxb/jaxb-xjc-jdk9/2.3.0/dtd-parser-1.2.jar,file:/C:/Users/Sindhu/.m2/repository/org/glassfish/jaxb/jaxb-xjc-jdk9/2.3.0/xsom-2.3.0.jar,file:/C:/Users/Sindhu/.m2/repository/org/glassfish/jaxb/jaxb-xjc-jdk9/2.3.0/codemodel-2.3.0.jar,file:/C:/Users/Sindhu/.m2/repository/org/glassfish/jaxb/jaxb-xjc-jdk9/2.3.0/rngom-2.3.0.jar,file:/C:/Users/Sindhu/.m2/repository/org/glassfish/jaxb/jaxb-xjc-jdk9/2.3.0/istack-commons-tools-3.0.5.jar,file:/C:/Users/Sindhu/.m2/repository/org/glassfish/jaxb/jaxb-xjc-jdk9/2.3.0/istack-commons-runtime-3.0.5.jar,file:/C:/Users/Sindhu/.m2/repository/org/glassfish/jaxb/jaxb-xjc-jdk9/2.3.0/relaxngDatatype-20020414.jar
+[2024-02-06 13:06:04,705] [org.springframework.boot.logging.DeferredLog] [restartedMain] [252] [INFO ] The Class-Path manifest attribute in C:\Users\Sindhu\.m2\repository\com\sun\xml\bind\external\rngom\2.3.0\rngom-2.3.0.jar referenced one or more files that do not exist: file:/C:/Users/Sindhu/.m2/repository/com/sun/xml/bind/external/rngom/2.3.0/relaxngDatatype-20020414.jar
+[2024-02-06 13:06:04,705] [org.springframework.boot.logging.DeferredLog] [restartedMain] [252] [INFO ] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2024-02-06 13:06:04,705] [org.springframework.boot.logging.DeferredLog] [restartedMain] [252] [INFO ] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2024-02-06 13:06:05,546] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [109] [INFO ] Tomcat initialized with port 8080 (http)
+[2024-02-06 13:06:05,553] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Initializing ProtocolHandler ["http-nio-8080"]
+[2024-02-06 13:06:05,556] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting service [Tomcat]
+[2024-02-06 13:06:05,556] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/10.1.18]
+[2024-02-06 13:06:05,597] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2024-02-06 13:06:05,598] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [restartedMain] [296] [INFO ] Root WebApplicationContext: initialization completed in 891 ms
+[2024-02-06 13:06:06,015] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [restartedMain] [59] [INFO ] LiveReload server is running on port 35729
+[2024-02-06 13:06:06,019] [org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver] [restartedMain] [58] [INFO ] Exposing 13 endpoint(s) beneath base path '/details'
+[2024-02-06 13:06:06,052] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting ProtocolHandler ["http-nio-8080"]
+[2024-02-06 13:06:06,065] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [241] [INFO ] Tomcat started on port 8080 (http) with context path ''
+[2024-02-06 13:06:06,076] [org.springframework.boot.StartupInfoLogger] [restartedMain] [56] [INFO ] Started SampleProdCrudApplication in 1.789 seconds (process running for 2.417)
+[2024-02-06 13:06:06,512] [org.apache.juli.logging.DirectJDKLog] [RMI TCP Connection(3)-127.0.0.1] [173] [INFO ] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2024-02-06 13:06:06,512] [org.springframework.web.servlet.FrameworkServlet] [RMI TCP Connection(3)-127.0.0.1] [532] [INFO ] Initializing Servlet 'dispatcherServlet'
+[2024-02-06 13:06:06,513] [org.springframework.web.servlet.FrameworkServlet] [RMI TCP Connection(3)-127.0.0.1] [554] [INFO ] Completed initialization in 1 ms
+[2024-02-06 13:06:27,800] [org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener] [File Watcher] [211] [INFO ] Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+[2024-02-06 13:06:27,803] [org.apache.juli.logging.DirectJDKLog] [Thread-5] [173] [INFO ] Stopping ProtocolHandler ["http-nio-8080"]
+[2024-02-06 13:06:27,849] [com.sindhu.SampleProdCrudApplication] [restartedMain] [29] [INFO ] This is an INFO level log message!
+[2024-02-06 13:06:27,850] [com.sindhu.SampleProdCrudApplication] [restartedMain] [30] [ERROR] This is an ERROR level log message!
+[2024-02-06 13:06:33,360] [org.springframework.boot.StartupInfoLogger] [restartedMain] [50] [INFO ] Starting SampleProdCrudApplication using Java 20.0.1 with PID 38040 (C:\Users\Sindhu\Desktop\Workspace-0608\SampleProdCrud\target\classes started by Sindhu in C:\Users\Sindhu\Desktop\Workspace-0608\SampleProdCrud)
+[2024-02-06 13:06:33,361] [org.springframework.boot.SpringApplication] [restartedMain] [654] [INFO ] No active profile set, falling back to 1 default profile: "default"
+[2024-02-06 13:06:33,571] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [109] [INFO ] Tomcat initialized with port 8080 (http)
+[2024-02-06 13:06:33,572] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Initializing ProtocolHandler ["http-nio-8080"]
+[2024-02-06 13:06:33,572] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting service [Tomcat]
+[2024-02-06 13:06:33,572] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/10.1.18]
+[2024-02-06 13:06:33,591] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2024-02-06 13:06:33,592] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [restartedMain] [296] [INFO ] Root WebApplicationContext: initialization completed in 230 ms
+[2024-02-06 13:06:33,679] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [restartedMain] [59] [INFO ] LiveReload server is running on port 35729
+[2024-02-06 13:06:33,681] [org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver] [restartedMain] [58] [INFO ] Exposing 13 endpoint(s) beneath base path '/details'
+[2024-02-06 13:06:33,690] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting ProtocolHandler ["http-nio-8080"]
+[2024-02-06 13:06:33,692] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [241] [INFO ] Tomcat started on port 8080 (http) with context path ''
+[2024-02-06 13:06:33,699] [org.springframework.boot.StartupInfoLogger] [restartedMain] [56] [INFO ] Started SampleProdCrudApplication in 0.359 seconds (process running for 30.04)
+[2024-02-06 13:06:33,702] [org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener] [restartedMain] [63] [INFO ] Condition evaluation unchanged
+[2024-02-06 13:07:32,688] [org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin] [RMI TCP Connection(6)-127.0.0.1] [159] [INFO ] Application shutdown requested.
+[2024-02-06 13:07:32,690] [org.apache.juli.logging.DirectJDKLog] [RMI TCP Connection(6)-127.0.0.1] [173] [INFO ] Stopping ProtocolHandler ["http-nio-8080"]
+[2024-02-06 13:07:38,016] [org.springframework.boot.StartupInfoLogger] [restartedMain] [50] [INFO ] Starting SampleProdCrudApplication using Java 20.0.1 with PID 43296 (C:\Users\Sindhu\Desktop\Workspace-0608\SampleProdCrud\target\classes started by Sindhu in C:\Users\Sindhu\Desktop\Workspace-0608\SampleProdCrud)
+[2024-02-06 13:07:38,019] [org.springframework.boot.SpringApplication] [restartedMain] [654] [INFO ] No active profile set, falling back to 1 default profile: "default"
+[2024-02-06 13:07:38,093] [org.springframework.boot.logging.DeferredLog] [restartedMain] [252] [INFO ] The Class-Path manifest attribute in C:\Users\Sindhu\.m2\repository\org\glassfish\jaxb\jaxb-xjc-jdk9\2.3.0\jaxb-xjc-jdk9-2.3.0.jar referenced one or more files that do not exist: file:/C:/Users/Sindhu/.m2/repository/org/glassfish/jaxb/jaxb-xjc-jdk9/2.3.0/jaxb-xjc-2.3.0.jar,file:/C:/Users/Sindhu/.m2/repository/org/glassfish/jaxb/jaxb-xjc-jdk9/2.3.0/jaxb-core-2.3.0.jar,file:/C:/Users/Sindhu/.m2/repository/org/glassfish/jaxb/jaxb-xjc-jdk9/2.3.0/jaxb-api-2.3.0.jar,file:/C:/Users/Sindhu/.m2/repository/org/glassfish/jaxb/jaxb-xjc-jdk9/2.3.0/txw2-2.3.0.jar,file:/C:/Users/Sindhu/.m2/repository/org/glassfish/jaxb/jaxb-xjc-jdk9/2.3.0/dtd-parser-1.2.jar,file:/C:/Users/Sindhu/.m2/repository/org/glassfish/jaxb/jaxb-xjc-jdk9/2.3.0/xsom-2.3.0.jar,file:/C:/Users/Sindhu/.m2/repository/org/glassfish/jaxb/jaxb-xjc-jdk9/2.3.0/codemodel-2.3.0.jar,file:/C:/Users/Sindhu/.m2/repository/org/glassfish/jaxb/jaxb-xjc-jdk9/2.3.0/rngom-2.3.0.jar,file:/C:/Users/Sindhu/.m2/repository/org/glassfish/jaxb/jaxb-xjc-jdk9/2.3.0/istack-commons-tools-3.0.5.jar,file:/C:/Users/Sindhu/.m2/repository/org/glassfish/jaxb/jaxb-xjc-jdk9/2.3.0/istack-commons-runtime-3.0.5.jar,file:/C:/Users/Sindhu/.m2/repository/org/glassfish/jaxb/jaxb-xjc-jdk9/2.3.0/relaxngDatatype-20020414.jar
+[2024-02-06 13:07:38,093] [org.springframework.boot.logging.DeferredLog] [restartedMain] [252] [INFO ] The Class-Path manifest attribute in C:\Users\Sindhu\.m2\repository\com\sun\xml\bind\external\rngom\2.3.0\rngom-2.3.0.jar referenced one or more files that do not exist: file:/C:/Users/Sindhu/.m2/repository/com/sun/xml/bind/external/rngom/2.3.0/relaxngDatatype-20020414.jar
+[2024-02-06 13:07:38,094] [org.springframework.boot.logging.DeferredLog] [restartedMain] [252] [INFO ] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2024-02-06 13:07:38,094] [org.springframework.boot.logging.DeferredLog] [restartedMain] [252] [INFO ] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2024-02-06 13:07:39,079] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [109] [INFO ] Tomcat initialized with port 8080 (http)
+[2024-02-06 13:07:39,089] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Initializing ProtocolHandler ["http-nio-8080"]
+[2024-02-06 13:07:39,090] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting service [Tomcat]
+[2024-02-06 13:07:39,091] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/10.1.18]
+[2024-02-06 13:07:39,133] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2024-02-06 13:07:39,133] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [restartedMain] [296] [INFO ] Root WebApplicationContext: initialization completed in 1039 ms
+[2024-02-06 13:07:39,678] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [restartedMain] [59] [INFO ] LiveReload server is running on port 35729
+[2024-02-06 13:07:39,685] [org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver] [restartedMain] [58] [INFO ] Exposing 13 endpoint(s) beneath base path '/details'
+[2024-02-06 13:07:39,724] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting ProtocolHandler ["http-nio-8080"]
+[2024-02-06 13:07:39,740] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [241] [INFO ] Tomcat started on port 8080 (http) with context path ''
+[2024-02-06 13:07:39,751] [org.springframework.boot.StartupInfoLogger] [restartedMain] [56] [INFO ] Started SampleProdCrudApplication in 2.115 seconds (process running for 2.839)
+[2024-02-06 13:07:40,134] [org.apache.juli.logging.DirectJDKLog] [RMI TCP Connection(3)-127.0.0.1] [173] [INFO ] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2024-02-06 13:07:40,134] [org.springframework.web.servlet.FrameworkServlet] [RMI TCP Connection(3)-127.0.0.1] [532] [INFO ] Initializing Servlet 'dispatcherServlet'
+[2024-02-06 13:07:40,135] [org.springframework.web.servlet.FrameworkServlet] [RMI TCP Connection(3)-127.0.0.1] [554] [INFO ] Completed initialization in 1 ms
+[2024-02-06 13:09:32,644] [org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin] [RMI TCP Connection(7)-127.0.0.1] [159] [INFO ] Application shutdown requested.
+[2024-02-06 13:09:32,647] [org.apache.juli.logging.DirectJDKLog] [RMI TCP Connection(7)-127.0.0.1] [173] [INFO ] Stopping ProtocolHandler ["http-nio-8080"]
+[[2024-02-06 13:09:39,031]] [org.springframework.boot.StartupInfoLogger] [restartedMain] [50] [INFO ] Starting SampleProdCrudApplication using Java 20.0.1 with PID 46180 (C:\Users\Sindhu\Desktop\Workspace-0608\SampleProdCrud\target\classes started by Sindhu in C:\Users\Sindhu\Desktop\Workspace-0608\SampleProdCrud)
+[[2024-02-06 13:09:39,033]] [org.springframework.boot.SpringApplication] [restartedMain] [654] [INFO ] No active profile set, falling back to 1 default profile: "default"
+[[2024-02-06 13:09:39,096]] [org.springframework.boot.logging.DeferredLog] [restartedMain] [252] [INFO ] The Class-Path manifest attribute in C:\Users\Sindhu\.m2\repository\org\glassfish\jaxb\jaxb-xjc-jdk9\2.3.0\jaxb-xjc-jdk9-2.3.0.jar referenced one or more files that do not exist: file:/C:/Users/Sindhu/.m2/repository/org/glassfish/jaxb/jaxb-xjc-jdk9/2.3.0/jaxb-xjc-2.3.0.jar,file:/C:/Users/Sindhu/.m2/repository/org/glassfish/jaxb/jaxb-xjc-jdk9/2.3.0/jaxb-core-2.3.0.jar,file:/C:/Users/Sindhu/.m2/repository/org/glassfish/jaxb/jaxb-xjc-jdk9/2.3.0/jaxb-api-2.3.0.jar,file:/C:/Users/Sindhu/.m2/repository/org/glassfish/jaxb/jaxb-xjc-jdk9/2.3.0/txw2-2.3.0.jar,file:/C:/Users/Sindhu/.m2/repository/org/glassfish/jaxb/jaxb-xjc-jdk9/2.3.0/dtd-parser-1.2.jar,file:/C:/Users/Sindhu/.m2/repository/org/glassfish/jaxb/jaxb-xjc-jdk9/2.3.0/xsom-2.3.0.jar,file:/C:/Users/Sindhu/.m2/repository/org/glassfish/jaxb/jaxb-xjc-jdk9/2.3.0/codemodel-2.3.0.jar,file:/C:/Users/Sindhu/.m2/repository/org/glassfish/jaxb/jaxb-xjc-jdk9/2.3.0/rngom-2.3.0.jar,file:/C:/Users/Sindhu/.m2/repository/org/glassfish/jaxb/jaxb-xjc-jdk9/2.3.0/istack-commons-tools-3.0.5.jar,file:/C:/Users/Sindhu/.m2/repository/org/glassfish/jaxb/jaxb-xjc-jdk9/2.3.0/istack-commons-runtime-3.0.5.jar,file:/C:/Users/Sindhu/.m2/repository/org/glassfish/jaxb/jaxb-xjc-jdk9/2.3.0/relaxngDatatype-20020414.jar
+[[2024-02-06 13:09:39,096]] [org.springframework.boot.logging.DeferredLog] [restartedMain] [252] [INFO ] The Class-Path manifest attribute in C:\Users\Sindhu\.m2\repository\com\sun\xml\bind\external\rngom\2.3.0\rngom-2.3.0.jar referenced one or more files that do not exist: file:/C:/Users/Sindhu/.m2/repository/com/sun/xml/bind/external/rngom/2.3.0/relaxngDatatype-20020414.jar
+[[2024-02-06 13:09:39,097]] [org.springframework.boot.logging.DeferredLog] [restartedMain] [252] [INFO ] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[[2024-02-06 13:09:39,097]] [org.springframework.boot.logging.DeferredLog] [restartedMain] [252] [INFO ] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[[2024-02-06 13:09:39,983]] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [109] [INFO ] Tomcat initialized with port 8080 (http)
+[[2024-02-06 13:09:39,989]] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Initializing ProtocolHandler ["http-nio-8080"]
+[[2024-02-06 13:09:39,990]] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting service [Tomcat]
+[[2024-02-06 13:09:39,991]] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/10.1.18]
+[[2024-02-06 13:09:40,026]] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[[2024-02-06 13:09:40,026]] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [restartedMain] [296] [INFO ] Root WebApplicationContext: initialization completed in 929 ms
+[[2024-02-06 13:09:40,464]] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [restartedMain] [59] [INFO ] LiveReload server is running on port 35729
+[[2024-02-06 13:09:40,469]] [org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver] [restartedMain] [58] [INFO ] Exposing 13 endpoint(s) beneath base path '/details'
+[[2024-02-06 13:09:40,504]] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting ProtocolHandler ["http-nio-8080"]
+[[2024-02-06 13:09:40,518]] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [241] [INFO ] Tomcat started on port 8080 (http) with context path ''
+[[2024-02-06 13:09:40,528]] [org.springframework.boot.StartupInfoLogger] [restartedMain] [56] [INFO ] Started SampleProdCrudApplication in 1.884 seconds (process running for 2.526)
+[[2024-02-06 13:09:40,916]] [org.apache.juli.logging.DirectJDKLog] [RMI TCP Connection(3)-127.0.0.1] [173] [INFO ] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[[2024-02-06 13:09:40,916]] [org.springframework.web.servlet.FrameworkServlet] [RMI TCP Connection(3)-127.0.0.1] [532] [INFO ] Initializing Servlet 'dispatcherServlet'
+[[2024-02-06 13:09:40,916]] [org.springframework.web.servlet.FrameworkServlet] [RMI TCP Connection(3)-127.0.0.1] [554] [INFO ] Completed initialization in 0 ms
+[[2024-02-06 13:09:54,632]] [org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin] [RMI TCP Connection(2)-127.0.0.1] [159] [INFO ] Application shutdown requested.
+[[2024-02-06 13:09:54,635]] [org.apache.juli.logging.DirectJDKLog] [RMI TCP Connection(2)-127.0.0.1] [173] [INFO ] Stopping ProtocolHandler ["http-nio-8080"]
+[[2024-02-06 13:11:00,510]] [org.springframework.boot.SpringApplication] [restartedMain] [851] [ERROR] Application run failed
+java.lang.IllegalStateException: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.classic.PatternLayout("null") - Empty or null pattern.
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:347)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:298)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:246)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:223)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:178)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:171)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:149)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:137)
+	at org.springframework.boot.context.event.EventPublishingRunListener.multicastInitialEvent(EventPublishingRunListener.java:136)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:81)
+	at org.springframework.boot.SpringApplicationRunListeners.lambda$environmentPrepared$2(SpringApplicationRunListeners.java:64)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:118)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:112)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:63)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:369)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:329)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
+	at com.sindhu.SampleProdCrudApplication.main(SampleProdCrudApplication.java:31)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.classic.PatternLayout("null") - Empty or null pattern.
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.reportConfigurationErrorsIfNecessary(LogbackLoggingSystem.java:277)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:255)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithSpecificConfig(AbstractLoggingSystem.java:67)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:58)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:189)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:335)
+	... 22 common frames omitted
+2024-02-06 13:12:44 [restartedMain] INFO  : Starting SampleProdCrudApplication using Java 20.0.1 with PID 10680 (C:\Users\Sindhu\Desktop\Workspace-0608\SampleProdCrud\target\classes started by Sindhu in C:\Users\Sindhu\Desktop\Workspace-0608\SampleProdCrud)
+2024-02-06 13:12:44 [restartedMain] INFO  : No active profile set, falling back to 1 default profile: "default"
+2024-02-06 13:12:44 [restartedMain] INFO  : The Class-Path manifest attribute in C:\Users\Sindhu\.m2\repository\org\glassfish\jaxb\jaxb-xjc-jdk9\2.3.0\jaxb-xjc-jdk9-2.3.0.jar referenced one or more files that do not exist: file:/C:/Users/Sindhu/.m2/repository/org/glassfish/jaxb/jaxb-xjc-jdk9/2.3.0/jaxb-xjc-2.3.0.jar,file:/C:/Users/Sindhu/.m2/repository/org/glassfish/jaxb/jaxb-xjc-jdk9/2.3.0/jaxb-core-2.3.0.jar,file:/C:/Users/Sindhu/.m2/repository/org/glassfish/jaxb/jaxb-xjc-jdk9/2.3.0/jaxb-api-2.3.0.jar,file:/C:/Users/Sindhu/.m2/repository/org/glassfish/jaxb/jaxb-xjc-jdk9/2.3.0/txw2-2.3.0.jar,file:/C:/Users/Sindhu/.m2/repository/org/glassfish/jaxb/jaxb-xjc-jdk9/2.3.0/dtd-parser-1.2.jar,file:/C:/Users/Sindhu/.m2/repository/org/glassfish/jaxb/jaxb-xjc-jdk9/2.3.0/xsom-2.3.0.jar,file:/C:/Users/Sindhu/.m2/repository/org/glassfish/jaxb/jaxb-xjc-jdk9/2.3.0/codemodel-2.3.0.jar,file:/C:/Users/Sindhu/.m2/repository/org/glassfish/jaxb/jaxb-xjc-jdk9/2.3.0/rngom-2.3.0.jar,file:/C:/Users/Sindhu/.m2/repository/org/glassfish/jaxb/jaxb-xjc-jdk9/2.3.0/istack-commons-tools-3.0.5.jar,file:/C:/Users/Sindhu/.m2/repository/org/glassfish/jaxb/jaxb-xjc-jdk9/2.3.0/istack-commons-runtime-3.0.5.jar,file:/C:/Users/Sindhu/.m2/repository/org/glassfish/jaxb/jaxb-xjc-jdk9/2.3.0/relaxngDatatype-20020414.jar
+2024-02-06 13:12:44 [restartedMain] INFO  : The Class-Path manifest attribute in C:\Users\Sindhu\.m2\repository\com\sun\xml\bind\external\rngom\2.3.0\rngom-2.3.0.jar referenced one or more files that do not exist: file:/C:/Users/Sindhu/.m2/repository/com/sun/xml/bind/external/rngom/2.3.0/relaxngDatatype-20020414.jar
+2024-02-06 13:12:44 [restartedMain] INFO  : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-02-06 13:12:44 [restartedMain] INFO  : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-02-06 13:12:45 [restartedMain] INFO  : Tomcat initialized with port 8080 (http)
+2024-02-06 13:12:45 [restartedMain] INFO  : Initializing ProtocolHandler ["http-nio-8080"]
+2024-02-06 13:12:45 [restartedMain] INFO  : Starting service [Tomcat]
+2024-02-06 13:12:45 [restartedMain] INFO  : Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-02-06 13:12:45 [restartedMain] INFO  : Initializing Spring embedded WebApplicationContext
+2024-02-06 13:12:45 [restartedMain] INFO  : Root WebApplicationContext: initialization completed in 1139 ms
+2024-02-06 13:12:45 [restartedMain] INFO  : LiveReload server is running on port 35729
+2024-02-06 13:12:45 [restartedMain] INFO  : Exposing 13 endpoint(s) beneath base path '/details'
+2024-02-06 13:12:45 [restartedMain] INFO  : Starting ProtocolHandler ["http-nio-8080"]
+2024-02-06 13:12:45 [restartedMain] INFO  : Tomcat started on port 8080 (http) with context path ''
+2024-02-06 13:12:46 [restartedMain] INFO  : Started SampleProdCrudApplication in 2.324 seconds (process running for 3.948)
+2024-02-06 13:12:48 [RMI TCP Connection(3)-127.0.0.1] INFO  : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-02-06 13:12:48 [RMI TCP Connection(3)-127.0.0.1] INFO  : Initializing Servlet 'dispatcherServlet'
+2024-02-06 13:12:48 [RMI TCP Connection(3)-127.0.0.1] INFO  : Completed initialization in 1 ms
+2024-02-06 13:13:40 [RMI TCP Connection(5)-127.0.0.1] INFO  : Application shutdown requested.
+2024-02-06 13:13:40 [RMI TCP Connection(5)-127.0.0.1] INFO  : Stopping ProtocolHandler ["http-nio-8080"]
+02-06-2024 13:13:46 [restartedMain] INFO  : Starting SampleProdCrudApplication using Java 20.0.1 with PID 7516 (C:\Users\Sindhu\Desktop\Workspace-0608\SampleProdCrud\target\classes started by Sindhu in C:\Users\Sindhu\Desktop\Workspace-0608\SampleProdCrud)
+02-06-2024 13:13:46 [restartedMain] INFO  : No active profile set, falling back to 1 default profile: "default"
+02-06-2024 13:13:46 [restartedMain] INFO  : The Class-Path manifest attribute in C:\Users\Sindhu\.m2\repository\org\glassfish\jaxb\jaxb-xjc-jdk9\2.3.0\jaxb-xjc-jdk9-2.3.0.jar referenced one or more files that do not exist: file:/C:/Users/Sindhu/.m2/repository/org/glassfish/jaxb/jaxb-xjc-jdk9/2.3.0/jaxb-xjc-2.3.0.jar,file:/C:/Users/Sindhu/.m2/repository/org/glassfish/jaxb/jaxb-xjc-jdk9/2.3.0/jaxb-core-2.3.0.jar,file:/C:/Users/Sindhu/.m2/repository/org/glassfish/jaxb/jaxb-xjc-jdk9/2.3.0/jaxb-api-2.3.0.jar,file:/C:/Users/Sindhu/.m2/repository/org/glassfish/jaxb/jaxb-xjc-jdk9/2.3.0/txw2-2.3.0.jar,file:/C:/Users/Sindhu/.m2/repository/org/glassfish/jaxb/jaxb-xjc-jdk9/2.3.0/dtd-parser-1.2.jar,file:/C:/Users/Sindhu/.m2/repository/org/glassfish/jaxb/jaxb-xjc-jdk9/2.3.0/xsom-2.3.0.jar,file:/C:/Users/Sindhu/.m2/repository/org/glassfish/jaxb/jaxb-xjc-jdk9/2.3.0/codemodel-2.3.0.jar,file:/C:/Users/Sindhu/.m2/repository/org/glassfish/jaxb/jaxb-xjc-jdk9/2.3.0/rngom-2.3.0.jar,file:/C:/Users/Sindhu/.m2/repository/org/glassfish/jaxb/jaxb-xjc-jdk9/2.3.0/istack-commons-tools-3.0.5.jar,file:/C:/Users/Sindhu/.m2/repository/org/glassfish/jaxb/jaxb-xjc-jdk9/2.3.0/istack-commons-runtime-3.0.5.jar,file:/C:/Users/Sindhu/.m2/repository/org/glassfish/jaxb/jaxb-xjc-jdk9/2.3.0/relaxngDatatype-20020414.jar
+02-06-2024 13:13:46 [restartedMain] INFO  : The Class-Path manifest attribute in C:\Users\Sindhu\.m2\repository\com\sun\xml\bind\external\rngom\2.3.0\rngom-2.3.0.jar referenced one or more files that do not exist: file:/C:/Users/Sindhu/.m2/repository/com/sun/xml/bind/external/rngom/2.3.0/relaxngDatatype-20020414.jar
+02-06-2024 13:13:46 [restartedMain] INFO  : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+02-06-2024 13:13:46 [restartedMain] INFO  : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+02-06-2024 13:13:47 [restartedMain] INFO  : Tomcat initialized with port 8080 (http)
+02-06-2024 13:13:47 [restartedMain] INFO  : Initializing ProtocolHandler ["http-nio-8080"]
+02-06-2024 13:13:47 [restartedMain] INFO  : Starting service [Tomcat]
+02-06-2024 13:13:47 [restartedMain] INFO  : Starting Servlet engine: [Apache Tomcat/10.1.18]
+02-06-2024 13:13:47 [restartedMain] INFO  : Initializing Spring embedded WebApplicationContext
+02-06-2024 13:13:47 [restartedMain] INFO  : Root WebApplicationContext: initialization completed in 1058 ms
+02-06-2024 13:13:47 [restartedMain] INFO  : LiveReload server is running on port 35729
+02-06-2024 13:13:47 [restartedMain] INFO  : Exposing 13 endpoint(s) beneath base path '/details'
+02-06-2024 13:13:47 [restartedMain] INFO  : Starting ProtocolHandler ["http-nio-8080"]
+02-06-2024 13:13:47 [restartedMain] INFO  : Tomcat started on port 8080 (http) with context path ''
+02-06-2024 13:13:47 [restartedMain] INFO  : Started SampleProdCrudApplication in 2.088 seconds (process running for 3.022)
+02-06-2024 13:13:48 [RMI TCP Connection(3)-127.0.0.1] INFO  : Initializing Spring DispatcherServlet 'dispatcherServlet'
+02-06-2024 13:13:48 [RMI TCP Connection(3)-127.0.0.1] INFO  : Initializing Servlet 'dispatcherServlet'
+02-06-2024 13:13:48 [RMI TCP Connection(3)-127.0.0.1] INFO  : Completed initialization in 0 ms
+02-06-2024 13:14:37 [RMI TCP Connection(5)-127.0.0.1] INFO  : Application shutdown requested.
+02-06-2024 13:14:37 [RMI TCP Connection(5)-127.0.0.1] INFO  : Stopping ProtocolHandler ["http-nio-8080"]
+[02-06-2024 13:14:41] [restartedMain] INFO  : Starting SampleProdCrudApplication using Java 20.0.1 with PID 37440 (C:\Users\Sindhu\Desktop\Workspace-0608\SampleProdCrud\target\classes started by Sindhu in C:\Users\Sindhu\Desktop\Workspace-0608\SampleProdCrud)
+[02-06-2024 13:14:41] [restartedMain] INFO  : No active profile set, falling back to 1 default profile: "default"
+[02-06-2024 13:14:41] [restartedMain] INFO  : The Class-Path manifest attribute in C:\Users\Sindhu\.m2\repository\org\glassfish\jaxb\jaxb-xjc-jdk9\2.3.0\jaxb-xjc-jdk9-2.3.0.jar referenced one or more files that do not exist: file:/C:/Users/Sindhu/.m2/repository/org/glassfish/jaxb/jaxb-xjc-jdk9/2.3.0/jaxb-xjc-2.3.0.jar,file:/C:/Users/Sindhu/.m2/repository/org/glassfish/jaxb/jaxb-xjc-jdk9/2.3.0/jaxb-core-2.3.0.jar,file:/C:/Users/Sindhu/.m2/repository/org/glassfish/jaxb/jaxb-xjc-jdk9/2.3.0/jaxb-api-2.3.0.jar,file:/C:/Users/Sindhu/.m2/repository/org/glassfish/jaxb/jaxb-xjc-jdk9/2.3.0/txw2-2.3.0.jar,file:/C:/Users/Sindhu/.m2/repository/org/glassfish/jaxb/jaxb-xjc-jdk9/2.3.0/dtd-parser-1.2.jar,file:/C:/Users/Sindhu/.m2/repository/org/glassfish/jaxb/jaxb-xjc-jdk9/2.3.0/xsom-2.3.0.jar,file:/C:/Users/Sindhu/.m2/repository/org/glassfish/jaxb/jaxb-xjc-jdk9/2.3.0/codemodel-2.3.0.jar,file:/C:/Users/Sindhu/.m2/repository/org/glassfish/jaxb/jaxb-xjc-jdk9/2.3.0/rngom-2.3.0.jar,file:/C:/Users/Sindhu/.m2/repository/org/glassfish/jaxb/jaxb-xjc-jdk9/2.3.0/istack-commons-tools-3.0.5.jar,file:/C:/Users/Sindhu/.m2/repository/org/glassfish/jaxb/jaxb-xjc-jdk9/2.3.0/istack-commons-runtime-3.0.5.jar,file:/C:/Users/Sindhu/.m2/repository/org/glassfish/jaxb/jaxb-xjc-jdk9/2.3.0/relaxngDatatype-20020414.jar
+[02-06-2024 13:14:41] [restartedMain] INFO  : The Class-Path manifest attribute in C:\Users\Sindhu\.m2\repository\com\sun\xml\bind\external\rngom\2.3.0\rngom-2.3.0.jar referenced one or more files that do not exist: file:/C:/Users/Sindhu/.m2/repository/com/sun/xml/bind/external/rngom/2.3.0/relaxngDatatype-20020414.jar
+[02-06-2024 13:14:41] [restartedMain] INFO  : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[02-06-2024 13:14:41] [restartedMain] INFO  : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[02-06-2024 13:14:42] [restartedMain] INFO  : Tomcat initialized with port 8080 (http)
+[02-06-2024 13:14:42] [restartedMain] INFO  : Initializing ProtocolHandler ["http-nio-8080"]
+[02-06-2024 13:14:42] [restartedMain] INFO  : Starting service [Tomcat]
+[02-06-2024 13:14:42] [restartedMain] INFO  : Starting Servlet engine: [Apache Tomcat/10.1.18]
+[02-06-2024 13:14:42] [restartedMain] INFO  : Initializing Spring embedded WebApplicationContext
+[02-06-2024 13:14:42] [restartedMain] INFO  : Root WebApplicationContext: initialization completed in 904 ms
+[02-06-2024 13:14:43] [restartedMain] INFO  : LiveReload server is running on port 35729
+[02-06-2024 13:14:43] [restartedMain] INFO  : Exposing 13 endpoint(s) beneath base path '/details'
+[02-06-2024 13:14:43] [restartedMain] INFO  : Starting ProtocolHandler ["http-nio-8080"]
+[02-06-2024 13:14:43] [restartedMain] INFO  : Tomcat started on port 8080 (http) with context path ''
+[02-06-2024 13:14:43] [restartedMain] INFO  : Started SampleProdCrudApplication in 1.825 seconds (process running for 2.447)
+[02-06-2024 13:14:43] [RMI TCP Connection(3)-127.0.0.1] INFO  : Initializing Spring DispatcherServlet 'dispatcherServlet'
+[02-06-2024 13:14:43] [RMI TCP Connection(3)-127.0.0.1] INFO  : Initializing Servlet 'dispatcherServlet'
+[02-06-2024 13:14:43] [RMI TCP Connection(3)-127.0.0.1] INFO  : Completed initialization in 1 ms
+[02-06-2024 13:17:05] [File Watcher] INFO  : Restarting due to 3 class path changes (0 additions, 0 deletions, 3 modifications)
+[02-06-2024 13:17:05] [Thread-5] INFO  : Stopping ProtocolHandler ["http-nio-8080"]
+[02-06-2024 13:17:05] [restartedMain] INFO  : This is an INFO level log message!
+[02-06-2024 13:17:05] [restartedMain] ERROR : This is an ERROR level log message!

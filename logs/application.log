@@ -1,0 +1,165 @@
+2024-02-06T11:19:36.471-06:00  INFO 44292 --- [restartedMain] com.sindhu.SampleProdCrudApplication     : Starting SampleProdCrudApplication using Java 20.0.1 with PID 44292 (C:\Users\Sindhu\Desktop\Workspace-0608\SampleProdCrud\target\classes started by Sindhu in C:\Users\Sindhu\Desktop\Workspace-0608\SampleProdCrud)
+2024-02-06T11:19:36.472-06:00  INFO 44292 --- [restartedMain] com.sindhu.SampleProdCrudApplication     : No active profile set, falling back to 1 default profile: "default"
+2024-02-06T11:19:36.788-06:00  INFO 44292 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-02-06T11:19:36.801-06:00  INFO 44292 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-02-06T11:19:36.802-06:00  INFO 44292 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-02-06T11:19:36.825-06:00  INFO 44292 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-02-06T11:19:36.825-06:00  INFO 44292 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 351 ms
+2024-02-06T11:19:36.944-06:00  INFO 44292 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-02-06T11:19:36.946-06:00  INFO 44292 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/details'
+2024-02-06T11:19:36.959-06:00  INFO 44292 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-02-06T11:19:36.968-06:00  INFO 44292 --- [restartedMain] com.sindhu.SampleProdCrudApplication     : Started SampleProdCrudApplication in 0.554 seconds (process running for 411.703)
+2024-02-06T11:19:36.971-06:00  INFO 44292 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+   LogFileWebEndpointAutoConfiguration#logFileWebEndpoint matched:
+      - Log File found logging.file.name logs/application.log (LogFileWebEndpointAutoConfiguration.LogFileCondition)
+      - @ConditionalOnMissingBean (types: org.springframework.boot.actuate.logging.LogFileWebEndpoint; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+
+Negative matches:
+-----------------
+
+    None
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+2024-02-06T11:19:59.245-06:00  INFO 44292 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-02-06T11:19:59.245-06:00  INFO 44292 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-02-06T11:19:59.249-06:00  INFO 44292 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2024-02-06T11:19:59.252-06:00  INFO 44292 --- [http-nio-8080-exec-1] com.sindhu.controller.LogController      : Log level: INFO
+2024-02-06T11:19:59.253-06:00 ERROR 44292 --- [http-nio-8080-exec-1] com.sindhu.controller.LogController      : Log level: ERROR
+2024-02-06T11:19:59.253-06:00  WARN 44292 --- [http-nio-8080-exec-1] com.sindhu.controller.LogController      : Log level: WARN
+2024-02-06T11:20:49.679-06:00  INFO 44292 --- [http-nio-8080-exec-3] com.sindhu.controller.LogController      : Log level: INFO
+2024-02-06T11:20:49.686-06:00 ERROR 44292 --- [http-nio-8080-exec-3] com.sindhu.controller.LogController      : Log level: ERROR
+2024-02-06T11:20:49.686-06:00  WARN 44292 --- [http-nio-8080-exec-3] com.sindhu.controller.LogController      : Log level: WARN
+2024-02-06T11:21:28.822-06:00  INFO 44292 --- [http-nio-8080-exec-2] com.sindhu.controller.LogController      : Log level: INFO
+2024-02-06T11:21:28.822-06:00 ERROR 44292 --- [http-nio-8080-exec-2] com.sindhu.controller.LogController      : Log level: ERROR
+2024-02-06T11:21:28.822-06:00  WARN 44292 --- [http-nio-8080-exec-2] com.sindhu.controller.LogController      : Log level: WARN
+2024-02-06T11:22:36.214-06:00  INFO 44292 --- [http-nio-8080-exec-8] com.sindhu.controller.LogController      : Log level: INFO
+2024-02-06T11:22:36.215-06:00 ERROR 44292 --- [http-nio-8080-exec-8] com.sindhu.controller.LogController      : Log level: ERROR
+2024-02-06T11:22:36.215-06:00  WARN 44292 --- [http-nio-8080-exec-8] com.sindhu.controller.LogController      : Log level: WARN
+2024-02-06T11:22:41.867-06:00  INFO 44292 --- [http-nio-8080-exec-7] com.sindhu.controller.LogController      : Log level: INFO
+2024-02-06T11:22:41.867-06:00 ERROR 44292 --- [http-nio-8080-exec-7] com.sindhu.controller.LogController      : Log level: ERROR
+2024-02-06T11:22:41.867-06:00  WARN 44292 --- [http-nio-8080-exec-7] com.sindhu.controller.LogController      : Log level: WARN
+2024-02-06T11:22:42.017-06:00  WARN 44292 --- [http-nio-8080-exec-10] o.s.web.servlet.PageNotFound             : No mapping for GET /favicon.ico
+2024-02-06T11:22:42.019-06:00  WARN 44292 --- [http-nio-8080-exec-10] o.s.web.servlet.PageNotFound             : No endpoint GET /favicon.ico.
+2024-02-06T11:22:49.571-06:00  INFO 44292 --- [RMI TCP Connection(14)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2024-02-06T11:22:59.814-06:00  INFO 39976 --- [restartedMain] com.sindhu.SampleProdCrudApplication     : Starting SampleProdCrudApplication using Java 20.0.1 with PID 39976 (C:\Users\Sindhu\Desktop\Workspace-0608\SampleProdCrud\target\classes started by Sindhu in C:\Users\Sindhu\Desktop\Workspace-0608\SampleProdCrud)
+2024-02-06T11:22:59.817-06:00  INFO 39976 --- [restartedMain] com.sindhu.SampleProdCrudApplication     : No active profile set, falling back to 1 default profile: "default"
+2024-02-06T11:22:59.879-06:00  INFO 39976 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\Sindhu\.m2\repository\org\glassfish\jaxb\jaxb-xjc-jdk9\2.3.0\jaxb-xjc-jdk9-2.3.0.jar referenced one or more files that do not exist: file:/C:/Users/Sindhu/.m2/repository/org/glassfish/jaxb/jaxb-xjc-jdk9/2.3.0/jaxb-xjc-2.3.0.jar,file:/C:/Users/Sindhu/.m2/repository/org/glassfish/jaxb/jaxb-xjc-jdk9/2.3.0/jaxb-core-2.3.0.jar,file:/C:/Users/Sindhu/.m2/repository/org/glassfish/jaxb/jaxb-xjc-jdk9/2.3.0/jaxb-api-2.3.0.jar,file:/C:/Users/Sindhu/.m2/repository/org/glassfish/jaxb/jaxb-xjc-jdk9/2.3.0/txw2-2.3.0.jar,file:/C:/Users/Sindhu/.m2/repository/org/glassfish/jaxb/jaxb-xjc-jdk9/2.3.0/dtd-parser-1.2.jar,file:/C:/Users/Sindhu/.m2/repository/org/glassfish/jaxb/jaxb-xjc-jdk9/2.3.0/xsom-2.3.0.jar,file:/C:/Users/Sindhu/.m2/repository/org/glassfish/jaxb/jaxb-xjc-jdk9/2.3.0/codemodel-2.3.0.jar,file:/C:/Users/Sindhu/.m2/repository/org/glassfish/jaxb/jaxb-xjc-jdk9/2.3.0/rngom-2.3.0.jar,file:/C:/Users/Sindhu/.m2/repository/org/glassfish/jaxb/jaxb-xjc-jdk9/2.3.0/istack-commons-tools-3.0.5.jar,file:/C:/Users/Sindhu/.m2/repository/org/glassfish/jaxb/jaxb-xjc-jdk9/2.3.0/istack-commons-runtime-3.0.5.jar,file:/C:/Users/Sindhu/.m2/repository/org/glassfish/jaxb/jaxb-xjc-jdk9/2.3.0/relaxngDatatype-20020414.jar
+2024-02-06T11:22:59.880-06:00  INFO 39976 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\Sindhu\.m2\repository\com\sun\xml\bind\external\rngom\2.3.0\rngom-2.3.0.jar referenced one or more files that do not exist: file:/C:/Users/Sindhu/.m2/repository/com/sun/xml/bind/external/rngom/2.3.0/relaxngDatatype-20020414.jar
+2024-02-06T11:22:59.880-06:00  INFO 39976 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-02-06T11:22:59.880-06:00  INFO 39976 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-02-06T11:23:01.282-06:00  INFO 39976 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-02-06T11:23:01.296-06:00  INFO 39976 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-02-06T11:23:01.296-06:00  INFO 39976 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-02-06T11:23:01.362-06:00  INFO 39976 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-02-06T11:23:01.363-06:00  INFO 39976 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1482 ms
+2024-02-06T11:23:02.118-06:00  INFO 39976 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-02-06T11:23:02.127-06:00  INFO 39976 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/details'
+2024-02-06T11:23:02.215-06:00  INFO 39976 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-02-06T11:23:02.242-06:00  INFO 39976 --- [restartedMain] com.sindhu.SampleProdCrudApplication     : Started SampleProdCrudApplication in 2.901 seconds (process running for 3.756)
+2024-02-06T11:23:03.997-06:00  INFO 39976 --- [RMI TCP Connection(3)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-02-06T11:23:03.998-06:00  INFO 39976 --- [RMI TCP Connection(3)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-02-06T11:23:03.999-06:00  INFO 39976 --- [RMI TCP Connection(3)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-02-06T11:23:21.265-06:00  INFO 39976 --- [http-nio-8080-exec-1] com.sindhu.controller.LogController      : Log level: INFO
+2024-02-06T11:23:21.265-06:00 ERROR 39976 --- [http-nio-8080-exec-1] com.sindhu.controller.LogController      : Log level: ERROR
+2024-02-06T11:23:21.265-06:00  WARN 39976 --- [http-nio-8080-exec-1] com.sindhu.controller.LogController      : Log level: WARN
+2024-02-06T11:24:38.370-06:00  INFO 39976 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-02-06T11:24:38.489-06:00  INFO 39976 --- [restartedMain] com.sindhu.SampleProdCrudApplication     : Starting SampleProdCrudApplication using Java 20.0.1 with PID 39976 (C:\Users\Sindhu\Desktop\Workspace-0608\SampleProdCrud\target\classes started by Sindhu in C:\Users\Sindhu\Desktop\Workspace-0608\SampleProdCrud)
+2024-02-06T11:24:38.490-06:00  INFO 39976 --- [restartedMain] com.sindhu.SampleProdCrudApplication     : No active profile set, falling back to 1 default profile: "default"
+2024-02-06T11:24:38.853-06:00  INFO 39976 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-02-06T11:24:38.854-06:00  INFO 39976 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-02-06T11:24:38.855-06:00  INFO 39976 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-02-06T11:24:38.884-06:00  INFO 39976 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-02-06T11:24:38.884-06:00  INFO 39976 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 391 ms
+2024-02-06T11:24:39.036-06:00  INFO 39976 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-02-06T11:24:39.040-06:00  INFO 39976 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/details'
+2024-02-06T11:24:39.059-06:00  INFO 39976 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-02-06T11:24:39.068-06:00  INFO 39976 --- [restartedMain] com.sindhu.SampleProdCrudApplication     : Started SampleProdCrudApplication in 0.612 seconds (process running for 100.583)
+2024-02-06T11:24:39.072-06:00  INFO 39976 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-02-06T11:24:51.172-06:00  INFO 39976 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-02-06T11:24:51.173-06:00  INFO 39976 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-02-06T11:24:51.174-06:00  INFO 39976 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-02-06T11:24:51.177-06:00  INFO 39976 --- [http-nio-8080-exec-1] com.sindhu.controller.LogController      : Log level: INFO
+2024-02-06T11:24:51.177-06:00 ERROR 39976 --- [http-nio-8080-exec-1] com.sindhu.controller.LogController      : Log level: ERROR
+2024-02-06T11:24:51.177-06:00  WARN 39976 --- [http-nio-8080-exec-1] com.sindhu.controller.LogController      : Log level: WARN
+2024-02-06T11:25:10.256-06:00  INFO 39976 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-02-06T11:25:10.363-06:00  INFO 39976 --- [restartedMain] com.sindhu.SampleProdCrudApplication     : Starting SampleProdCrudApplication using Java 20.0.1 with PID 39976 (C:\Users\Sindhu\Desktop\Workspace-0608\SampleProdCrud\target\classes started by Sindhu in C:\Users\Sindhu\Desktop\Workspace-0608\SampleProdCrud)
+2024-02-06T11:25:10.364-06:00  INFO 39976 --- [restartedMain] com.sindhu.SampleProdCrudApplication     : No active profile set, falling back to 1 default profile: "default"
+2024-02-06T11:25:10.704-06:00  INFO 39976 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-02-06T11:25:10.704-06:00  INFO 39976 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-02-06T11:25:10.704-06:00  INFO 39976 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-02-06T11:25:10.733-06:00  INFO 39976 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-02-06T11:25:10.733-06:00  INFO 39976 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 367 ms
+2024-02-06T11:25:10.857-06:00  INFO 39976 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-02-06T11:25:10.860-06:00  INFO 39976 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/details'
+2024-02-06T11:25:10.876-06:00  INFO 39976 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-02-06T11:25:10.885-06:00  INFO 39976 --- [restartedMain] com.sindhu.SampleProdCrudApplication     : Started SampleProdCrudApplication in 0.547 seconds (process running for 132.399)
+2024-02-06T11:25:10.888-06:00  INFO 39976 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-02-06T11:31:48.287-06:00  INFO 39976 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-02-06T11:31:48.288-06:00  INFO 39976 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-02-06T11:31:48.291-06:00  INFO 39976 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2024-02-06T11:31:48.297-06:00  INFO 39976 --- [http-nio-8080-exec-1] com.sindhu.controller.LogController      : Log level: INFO
+2024-02-06T11:31:48.297-06:00 ERROR 39976 --- [http-nio-8080-exec-1] com.sindhu.controller.LogController      : Log level: ERROR
+2024-02-06T11:31:48.297-06:00  WARN 39976 --- [http-nio-8080-exec-1] com.sindhu.controller.LogController      : Log level: WARN
+2024-02-06T11:31:49.504-06:00  INFO 39976 --- [http-nio-8080-exec-2] com.sindhu.controller.LogController      : Log level: INFO
+2024-02-06T11:31:49.504-06:00 ERROR 39976 --- [http-nio-8080-exec-2] com.sindhu.controller.LogController      : Log level: ERROR
+2024-02-06T11:31:49.504-06:00  WARN 39976 --- [http-nio-8080-exec-2] com.sindhu.controller.LogController      : Log level: WARN
+2024-02-06T11:32:09.053-06:00  INFO 39976 --- [RMI TCP Connection(13)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2024-02-06T11:32:18.159-06:00  INFO 28528 --- [restartedMain] com.sindhu.SampleProdCrudApplication     : Starting SampleProdCrudApplication using Java 20.0.1 with PID 28528 (C:\Users\Sindhu\Desktop\Workspace-0608\SampleProdCrud\target\classes started by Sindhu in C:\Users\Sindhu\Desktop\Workspace-0608\SampleProdCrud)
+2024-02-06T11:32:18.162-06:00  INFO 28528 --- [restartedMain] com.sindhu.SampleProdCrudApplication     : No active profile set, falling back to 1 default profile: "default"
+2024-02-06T11:32:18.225-06:00  INFO 28528 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\Sindhu\.m2\repository\org\glassfish\jaxb\jaxb-xjc-jdk9\2.3.0\jaxb-xjc-jdk9-2.3.0.jar referenced one or more files that do not exist: file:/C:/Users/Sindhu/.m2/repository/org/glassfish/jaxb/jaxb-xjc-jdk9/2.3.0/jaxb-xjc-2.3.0.jar,file:/C:/Users/Sindhu/.m2/repository/org/glassfish/jaxb/jaxb-xjc-jdk9/2.3.0/jaxb-core-2.3.0.jar,file:/C:/Users/Sindhu/.m2/repository/org/glassfish/jaxb/jaxb-xjc-jdk9/2.3.0/jaxb-api-2.3.0.jar,file:/C:/Users/Sindhu/.m2/repository/org/glassfish/jaxb/jaxb-xjc-jdk9/2.3.0/txw2-2.3.0.jar,file:/C:/Users/Sindhu/.m2/repository/org/glassfish/jaxb/jaxb-xjc-jdk9/2.3.0/dtd-parser-1.2.jar,file:/C:/Users/Sindhu/.m2/repository/org/glassfish/jaxb/jaxb-xjc-jdk9/2.3.0/xsom-2.3.0.jar,file:/C:/Users/Sindhu/.m2/repository/org/glassfish/jaxb/jaxb-xjc-jdk9/2.3.0/codemodel-2.3.0.jar,file:/C:/Users/Sindhu/.m2/repository/org/glassfish/jaxb/jaxb-xjc-jdk9/2.3.0/rngom-2.3.0.jar,file:/C:/Users/Sindhu/.m2/repository/org/glassfish/jaxb/jaxb-xjc-jdk9/2.3.0/istack-commons-tools-3.0.5.jar,file:/C:/Users/Sindhu/.m2/repository/org/glassfish/jaxb/jaxb-xjc-jdk9/2.3.0/istack-commons-runtime-3.0.5.jar,file:/C:/Users/Sindhu/.m2/repository/org/glassfish/jaxb/jaxb-xjc-jdk9/2.3.0/relaxngDatatype-20020414.jar
+2024-02-06T11:32:18.225-06:00  INFO 28528 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\Sindhu\.m2\repository\com\sun\xml\bind\external\rngom\2.3.0\rngom-2.3.0.jar referenced one or more files that do not exist: file:/C:/Users/Sindhu/.m2/repository/com/sun/xml/bind/external/rngom/2.3.0/relaxngDatatype-20020414.jar
+2024-02-06T11:32:18.225-06:00  INFO 28528 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-02-06T11:32:18.225-06:00  INFO 28528 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-02-06T11:32:19.612-06:00  INFO 28528 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-02-06T11:32:19.627-06:00  INFO 28528 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-02-06T11:32:19.628-06:00  INFO 28528 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-02-06T11:32:19.686-06:00  INFO 28528 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-02-06T11:32:19.687-06:00  INFO 28528 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1461 ms
+2024-02-06T11:32:20.391-06:00  INFO 28528 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-02-06T11:32:20.401-06:00  INFO 28528 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/details'
+2024-02-06T11:32:20.478-06:00  INFO 28528 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-02-06T11:32:20.496-06:00  INFO 28528 --- [restartedMain] com.sindhu.SampleProdCrudApplication     : Started SampleProdCrudApplication in 2.771 seconds (process running for 3.64)
+2024-02-06T11:32:20.878-06:00  INFO 28528 --- [RMI TCP Connection(3)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-02-06T11:32:20.879-06:00  INFO 28528 --- [RMI TCP Connection(3)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-02-06T11:32:20.880-06:00  INFO 28528 --- [RMI TCP Connection(3)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-02-06T11:33:31.734-06:00  INFO 28528 --- [http-nio-8080-exec-1] com.sindhu.controller.LogController      : Log level: INFO
+2024-02-06T11:33:31.735-06:00 ERROR 28528 --- [http-nio-8080-exec-1] com.sindhu.controller.LogController      : Log level: ERROR
+2024-02-06T11:33:31.735-06:00  WARN 28528 --- [http-nio-8080-exec-1] com.sindhu.controller.LogController      : Log level: WARN
+2024-02-06T11:34:47.408-06:00  INFO 28528 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-02-06T11:34:47.527-06:00  INFO 28528 --- [restartedMain] com.sindhu.SampleProdCrudApplication     : Starting SampleProdCrudApplication using Java 20.0.1 with PID 28528 (C:\Users\Sindhu\Desktop\Workspace-0608\SampleProdCrud\target\classes started by Sindhu in C:\Users\Sindhu\Desktop\Workspace-0608\SampleProdCrud)
+2024-02-06T11:34:47.527-06:00  INFO 28528 --- [restartedMain] com.sindhu.SampleProdCrudApplication     : No active profile set, falling back to 1 default profile: "default"
+2024-02-06T11:34:47.911-06:00  INFO 28528 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-02-06T11:34:47.912-06:00  INFO 28528 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-02-06T11:34:47.912-06:00  INFO 28528 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-02-06T11:34:47.939-06:00  INFO 28528 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-02-06T11:34:47.939-06:00  INFO 28528 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 410 ms
+2024-02-06T11:34:48.092-06:00  INFO 28528 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-02-06T11:34:48.094-06:00  INFO 28528 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/details'
+2024-02-06T11:34:48.116-06:00  INFO 28528 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-02-06T11:34:48.132-06:00  INFO 28528 --- [restartedMain] com.sindhu.SampleProdCrudApplication     : Started SampleProdCrudApplication in 0.635 seconds (process running for 151.276)
+2024-02-06T11:34:48.136-06:00  INFO 28528 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-02-06T11:35:24.418-06:00  INFO 28528 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
